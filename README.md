@@ -1,8 +1,8 @@
-NFT Minting Contract
+**NFT Minting Contract**
 
 This is a successful Ethereum smart contract project that allows users to mint Non-Fungible Tokens (NFTs) on the Ethereum blockchain. The contract is built using Solidity and leverages the OpenZeppelin ERC721 standard for NFTs.
 
-Table of Contents
+**Table of Contents**
 Overview
 Features
 Getting Started
@@ -10,9 +10,11 @@ Usage
 Configuration
 License
 Overview
+
 The NFT Minting Contract provides a simple yet powerful way for users to mint their own NFTs. It includes the following key features:
 
-Features
+**Features**
+
 Minting Functionality: Users can mint NFTs by sending Ether to the contract. The number of NFTs minted is determined by the amount of Ether sent, based on the specified mint price.
 
 Supply Limits: The contract enforces limits on the total supply of NFTs and the maximum number of NFTs that can be minted by a single wallet. This ensures a controlled and fair distribution.
@@ -21,7 +23,8 @@ Public Minting: Public minting can be enabled or disabled by the contract owner.
 
 Metadata Support: The contract supports base token URI for metadata. Users can set the base URI, and this can be used to provide metadata for the minted NFTs.
 
-Getting Started
+****Getting Started
+
 To deploy and use this contract, follow these steps:
 
 Clone this repository to your local environment.
@@ -29,6 +32,7 @@ Clone this repository to your local environment.
 Install the necessary dependencies:
 
 bash
+
 Copy code
 npm install
 Configure your Ethereum network and environment variables (see Configuration).
@@ -41,6 +45,7 @@ npx hardhat run scripts/deploy.js --network <network-name>
 Interact with the deployed contract using your favorite Ethereum wallet or dApp.
 
 Usage
+
 To mint NFTs, users can call the mint function on the contract, providing the desired quantity and sending the required amount of Ether. Ensure that public minting is enabled and that you're sending the correct Ether value.
 
 solidity
