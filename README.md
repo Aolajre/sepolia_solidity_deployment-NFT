@@ -1,4 +1,5 @@
 NFT Minting Contract
+
 This is a successful Ethereum smart contract project that allows users to mint Non-Fungible Tokens (NFTs) on the Ethereum blockchain. The contract is built using Solidity and leverages the OpenZeppelin ERC721 standard for NFTs.
 
 Table of Contents
@@ -36,7 +37,7 @@ Deploy the contract to your chosen Ethereum network:
 
 bash
 Copy code
-npx hardhat run scripts/deploy.js --network Sepolia
+npx hardhat run scripts/deploy.js --network <network-name>
 Interact with the deployed contract using your favorite Ethereum wallet or dApp.
 
 Usage
@@ -61,7 +62,6 @@ PRIVATE_KEY: The private key of the account for deploying the contract.
 ETHERSCAN_KEY: Your Etherscan API key for contract verification.
 License
 This project is licensed under the Unlicensed license - see the LICENSE file for details.
-
 ----------------------------------------------------------------------------------------------
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
