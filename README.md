@@ -3,12 +3,19 @@
 This is a successful Ethereum smart contract project that allows users to mint Non-Fungible Tokens (NFTs) on the Ethereum blockchain. The contract is built using Solidity and leverages the OpenZeppelin ERC721 standard for NFTs.
 
 **Table of Contents**
+
 Overview
+
 Features
+
 Getting Started
+
 Usage
+
 Configuration
+
 License
+
 Overview
 
 The NFT Minting Contract provides a simple yet powerful way for users to mint their own NFTs. It includes the following key features:
