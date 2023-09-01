@@ -16,7 +16,7 @@ Configuration
 
 License
 
-Overview
+**Overview**
 
 The NFT Minting Contract provides a simple yet powerful way for users to mint their own NFTs. It includes the following key features:
 
@@ -30,7 +30,7 @@ Public Minting: Public minting can be enabled or disabled by the contract owner.
 
 Metadata Support: The contract supports base token URI for metadata. Users can set the base URI, and this can be used to provide metadata for the minted NFTs.
 
-****Getting Started
+**Getting Started**
 
 To deploy and use this contract, follow these steps:
 
